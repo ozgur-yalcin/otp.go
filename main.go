@@ -5,8 +5,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	otp "otp/src"
-
+	otp "github.com/OzqurYalcin/otp/src"
 	qr "rsc.io/qr"
 )
 
@@ -26,14 +25,14 @@ func main() {
 	}
 loop:
 	for {
-		var code string
-		fmt.Printf("enter the code (or q to quit):")
-		fmt.Scanln(&code)
-		switch code {
+		var token string
+		fmt.Printf("enter the token (or q to quit):")
+		fmt.Scanln(&token)
+		switch token {
 		case "q":
 			break loop
 		default:
-			val := totp.Verify(code, int(time.Now().Unix()))
+			val := totp.Verify(token, int(time.Now().Unix()))
 			if !val {
 				fmt.Println("Not Authenticated")
 				continue
