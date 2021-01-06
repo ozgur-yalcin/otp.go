@@ -5,7 +5,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	otp "github.com/OzqurYalcin/otp/src"
+	otp "github.com/ozgur-soft/otp/src"
 	qr "rsc.io/qr"
 )
 

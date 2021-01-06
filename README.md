@@ -6,7 +6,7 @@ The MIT License (MIT). Please see License File for more information.
 
 # Installation
 ```bash
-go get github.com/OzqurYalcin/otp
+go get github.com/ozgur-soft/otp
 go get rsc.io/qr
 ```
 
@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"time"
 
-	otp "github.com/OzqurYalcin/otp/src"
+	otp "github.com/ozgur-soft/otp/src"
 )
 
 func main() {
@@ -54,7 +54,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	otp "github.com/OzqurYalcin/otp/src"
+	otp "github.com/ozgur-soft/otp/src"
 	qr "rsc.io/qr"
 )
 
