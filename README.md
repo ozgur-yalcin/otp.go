@@ -4,7 +4,7 @@ One time password (OTP) library for generate two-factor authentication (2FA) tok
 # License
 The MIT License (MIT). Please see License File for more information.
 
-# prerequisites
+# Prerequisites
 ```bash
 apt install libqrencode-dev
 ```
