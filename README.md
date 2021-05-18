@@ -4,6 +4,11 @@ One time password (OTP) library for generate two-factor authentication (2FA) tok
 # License
 The MIT License (MIT). Please see License File for more information.
 
+# prerequisites
+```bash
+apt install libqrencode-dev
+```
+
 # Installation
 ```bash
 go get github.com/ozgur-soft/otp
