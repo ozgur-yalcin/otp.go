@@ -11,7 +11,7 @@ apt install libqrencode-dev
 
 # Installation
 ```bash
-go get github.com/ozgur-soft/otp
+go get github.com/ozgur-soft/otp.go
 go get rsc.io/qr
 ```
 
@@ -23,7 +23,7 @@ import (
 	"fmt"
 	"time"
 
-	otp "github.com/ozgur-soft/otp/src"
+	otp "github.com/ozgur-soft/otp.go/src"
 )
 
 func main() {
@@ -59,7 +59,7 @@ import (
 	"io/ioutil"
 	"time"
 
-	otp "github.com/ozgur-soft/otp/src"
+	otp "github.com/ozgur-soft/otp.go/src"
 	qr "rsc.io/qr"
 )
 
